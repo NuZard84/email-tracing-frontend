@@ -1,5 +1,13 @@
+import { Box, Image } from "@chakra-ui/react";
+
 const HeroSection = () => {
-  return <Box>HeroSection</Box>;
+  return (
+    <Box>
+      <Box>
+        <Image />
+      </Box>
+    </Box>
+  );
 };
 
 export default HeroSection;
