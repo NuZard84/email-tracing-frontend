@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Box, Image } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
