@@ -11,11 +11,19 @@ const HeroSection = () => {
     >
       <Box
         display={"flex"}
-        justifyContent={"space-between"}
+        justifyContent={"center"}
         alignItems={"center"}
         width={"full"}
+        gap={4}
       >
-        <Box display={"flex"} flexDir={"column"} width={"50%"} gap={4}>
+        <Box
+          display={"flex"}
+          flexDir={"column"}
+          justifyContent={"center"}
+          alignItems={"center"}
+          width={"42%"}
+          gap={4}
+        >
           <Heading
             fontSize={"70px"}
             lineHeight={1.1}
@@ -28,6 +36,7 @@ const HeroSection = () => {
             powerful email tracking web app.
           </Text>
           <Button
+            alignSelf={"flex-start"}
             transition={"all 0.2s ease-in-out"}
             transitionDuration={"300ms"}
             _hover={{
@@ -47,7 +56,9 @@ const HeroSection = () => {
             Get Start
           </Button>
         </Box>
-        <Image src={import.meta.env.VITE_MAIL_IMG_LINK} boxSize={"600px"} />
+        <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
+          <Image src={import.meta.env.VITE_MAIL_IMG_LINK} boxSize={"675px"} />
+        </Box>
       </Box>
     </Box>
   );
