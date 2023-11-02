@@ -28,7 +28,7 @@ const Navbar = () => {
         >
           <Github />
           <Text fontSize={"md"} fontWeight={"semibold"}>
-            Github Repo
+            {/* Github Repo */}
           </Text>
         </Box>
       </Flex>
