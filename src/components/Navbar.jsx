@@ -2,6 +2,7 @@ import { Box, Spacer, Flex } from "@chakra-ui/react";
 import Github from "../assets/github";
 
 const Navbar = () => {
+  // working on navbar branch
   return (
     <Box>
       <Flex background="red.300">
